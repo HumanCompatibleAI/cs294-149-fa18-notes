@@ -1,0 +1,87 @@
+\documentclass[11pt]{article}
+\usepackage{amsmath,amsfonts,latexsym,graphicx}
+\usepackage{fullpage,color}
+
+\usepackage{url,hyperref}
+
+%\pagestyle{empty}
+
+\setlength{\oddsidemargin}{0in}
+\setlength{\topmargin}{0in}
+\setlength{\textwidth}{6.5in}
+\setlength{\textheight}{8.5in}
+
+\newtheorem{fact}{Fact}
+\newtheorem{lemma}{Lemma}
+\newtheorem{theorem}[lemma]{Theorem}
+\newtheorem{defn}[lemma]{Definition}
+\newtheorem{assumption}[lemma]{Assumption}
+\newtheorem{corollary}[lemma]{Corollary}
+\newtheorem{prop}[lemma]{Proposition}
+\newtheorem{exercise}[lemma]{Exercise}
+\newtheorem{claim}[lemma]{Claim}
+\newtheorem{remark}[lemma]{Remark}
+\newtheorem{prob}{Problem}
+\newtheorem{conjecture}{Conjecture}
+
+\newenvironment{note}[1]{\medskip\noindent \textbf{#1:}}%
+        {\medskip}
+
+\newenvironment{proof}{\vspace{-0.05in}\noindent{\bf Proof:}}%
+        {\hspace*{\fill}$\Box$\par}
+\newenvironment{proofsketch}{\noindent{\bf Proof Sketch.}}%
+        {\hspace*{\fill}$\Box$\par\vspace{4mm}}
+\newenvironment{proofof}[1]{\smallskip\noindent{\bf Proof of #1.}}%
+        {\hspace*{\fill}$\Box$\par}
+
+\newcommand{\etal}{{\em et al.}\ }
+\newcommand{\assign}{\leftarrow}
+\newcommand{\eps}{\epsilon}
+
+\newcommand{\opt}{\textrm{\sc OPT}}
+\newcommand{\script}[1]{\mathcal{#1}}
+\newcommand{\ceil}[1]{\lceil #1 \rceil}
+\newcommand{\floor}[1]{\lfloor #1 \rfloor}
+
+
+\begin{document}
+
+\setlength{\fboxrule}{.5mm}\setlength{\fboxsep}{1.2mm}
+\newlength{\boxlength}\setlength{\boxlength}{\textwidth}
+\addtolength{\boxlength}{-4mm}
+\begin{center}\framebox{\parbox{\boxlength}{\bf
+CS 294-149:  \hfill Lecture 1 \hfill Date: ... \\
+  Safety and Control for AGI \hfill Scribe: ... }}\end{center}
+
+\vspace{5mm}
+
+\section{Introduction}
+
+We will consider topic X in this lecture.
+
+\section{Topic 1}
+
+\begin{theorem}
+This is a result.
+\end{theorem}
+\begin{proof}
+This is the proof.
+\end{proof}
+
+\section{Topic 2}
+
+
+
+\bibliographystyle{plain}
+%% To add references, uncomment the following two lines and
+%% add the relevant bibitems.
+
+\begin{thebibliography}{99}
+\bibitem{AS}
+Noga Alon and Joel Spencer. The Probabilistic Method, Wiley, 2008.
+\bibitem{E}
+Paul Erdos. Some remarks on the theory of graphs, {\em Bull. Amer. Math. Soc.}, 53 (4): 292–294, 1947.
+
+
+\end{thebibliography}
+\end{document} 
