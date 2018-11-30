@@ -1,0 +1,13 @@
+# build artefacts
+*.aux
+*.log
+*.out
+*.thm
+*.bbl
+*.fdb_latexmk
+*.fls
+
+# editor junk
+.#*
+*.swp
+auto/
